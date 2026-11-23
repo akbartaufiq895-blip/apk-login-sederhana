@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">SambutKu</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_badge_label">AKSES LOKAL AMAN</string>
+    <string name="welcome_title">Selamat Datang di SambutKu</string>
+    <string name="welcome_subtitle">Masuk dengan akun Anda atau daftar secara manual dalam hitungan detik. Data Anda tersimpan aman di perangkat.</string>
+    <string name="welcome_hero_content_desc">Ilustrasi gerbang selamat datang SambutKu</string>
+    <string name="welcome_feature_login">Masuk Cepat &amp; Mudah</string>
+    <string name="welcome_feature_register">Registrasi Manual Lengkap</string>
+    <string name="welcome_feature_privacy">Kata Sandi Terenkripsi Lokal</string>
+    <string name="welcome_action_login">Masuk ke Akun</string>
+    <string name="welcome_action_register">Daftar Akun Baru</string>
+
+    <!-- Common Navigation & Actions -->
+    <string name="cd_navigate_back">Kembali</string>
+    <string name="cd_toggle_password_visibility">Tampilkan atau sembunyikan kata sandi</string>
+    <string name="action_save">Simpan Perubahan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_logout">Keluar</string>
+    <string name="action_edit_profile">Ubah Profil</string>
+    <string name="action_delete_account">Hapus Akun</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Masukkan email dan kata sandi akun terdaftar Anda untuk melanjutkan.</string>
+    <string name="login_email_label">Alamat Email</string>
+    <string name="login_email_placeholder">nama@contoh.com</string>
+    <string name="login_password_label">Kata Sandi</string>
+    <string name="login_password_placeholder">Masukkan kata sandi</string>
+    <string name="login_submit_button">Masuk</string>
+    <string name="login_no_account_prompt">Belum punya akun?</string>
+    <string name="login_go_to_register">Daftar sekarang</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Registrasi Akun Manual</string>
+    <string name="register_subtitle">Isi formulir berikut untuk membuat akun baru yang tersimpan di perangkat Anda.</string>
+    <string name="register_name_label">Nama Lengkap</string>
+    <string name="register_name_placeholder">Contoh: Budi Santoso</string>
+    <string name="register_email_label">Alamat Email</string>
+    <string name="register_email_placeholder">nama@contoh.com</string>
+    <string name="register_phone_label">Nomor Telepon (Opsional)</string>
+    <string name="register_phone_placeholder">081234567890</string>
+    <string name="register_password_label">Kata Sandi</string>
+    <string name="register_password_placeholder">Minimal 6 karakter</string>
+    <string name="register_confirm_password_label">Konfirmasi Kata Sandi</string>
+    <string name="register_confirm_password_placeholder">Ulangi kata sandi</string>
+    <string name="register_strength_label">Kekuatan Kata Sandi:</string>
+    <string name="register_strength_weak">Lemah</string>
+    <string name="register_strength_medium">Sedang</string>
+    <string name="register_strength_strong">Kuat</string>
+    <string name="register_local_notice">Akun dan kata sandi Anda dienkripsi menggunakan PBKDF2-SHA256 dan disimpan secara lokal di perangkat.</string>
+    <string name="register_submit_button">Daftar Sekarang</string>
+    <string name="register_have_account_prompt">Sudah punya akun?</string>
+    <string name="register_go_to_login">Masuk</string>
+
+    <!-- Home Welcome Screen -->
+    <string name="home_banner_content_desc">Latar dekoratif beranda selamat datang</string>
+    <string name="home_greeting_prefix">Selamat Datang,</string>
+    <string name="home_session_active_badge">Sesi Aktif</string>
+    <string name="home_welcome_message">Anda telah berhasil masuk ke SambutKu. Kelola informasi akun Anda dengan nyaman dari sini.</string>
+    <string name="home_account_details_title">Informasi Akun</string>
+    <string name="home_label_full_name">Nama Lengkap</string>
+    <string name="home_label_email">Email</string>
+    <string name="home_label_phone">Nomor Telepon</string>
+    <string name="home_phone_not_set">Belum ditambahkan</string>
+    <string name="home_label_joined">Terdaftar Sejak</string>
+    <string name="home_security_card_title">Keamanan Perangkat</string>
+    <string name="home_security_card_desc">Autentikasi lokal aktif dengan hash PBKDF2-SHA256 &amp; sesi tersimpan aman di DataStore.</string>
+    <string name="home_edit_dialog_title">Perbarui Profil</string>
+    <string name="home_delete_dialog_title">Hapus Akun Ini?</string>
+    <string name="home_delete_dialog_message">Tindakan ini akan menghapus akun Anda secara permanen dari perangkat ini. Anda perlu mendaftar ulang jika ingin masuk kembali.</string>
+    <string name="home_delete_confirm">Ya, Hapus</string>
+    <string name="home_profile_updated_msg">Profil berhasil diperbarui</string>
+
+    <!-- Validation & Errors -->
+    <string name="error_name_required">Nama lengkap wajib diisi (minimal 2 karakter).</string>
+    <string name="error_email_required">Alamat email wajib diisi.</string>
+    <string name="error_email_invalid">Format alamat email tidak valid.</string>
+    <string name="error_phone_invalid">Nomor telepon harus terdiri dari 8–15 digit angka.</string>
+    <string name="error_password_required">Kata sandi wajib diisi.</string>
+    <string name="error_password_short">Kata sandi minimal 6 karakter.</string>
+    <string name="error_password_mismatch">Konfirmasi kata sandi tidak cocok.</string>
+    <string name="error_email_already_registered">Email ini sudah terdaftar. Silakan masuk menggunakan akun Anda.</string>
+    <string name="error_invalid_credentials">Email atau kata sandi salah. Silakan periksa kembali.</string>
+    <string name="error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+</resources>

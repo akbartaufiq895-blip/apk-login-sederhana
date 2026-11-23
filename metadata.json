@@ -1,0 +1,6 @@
+{
+  "name": "SambutKu",
+  "description": "Aplikasi login dan registrasi manual sederhana dengan layar selamat datang serta integrasi Google Sign-In dan Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
